@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTMClient", "BTMClient\BTMClient.csproj", "{183EDC95-C8AA-41A2-B3E6-1172213C6737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureLineClient", "SecureLineClient\SecureLineClient.csproj", "{A80C1B2B-8E18-497D-997E-0AF2C959F535}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{183EDC95-C8AA-41A2-B3E6-1172213C6737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{183EDC95-C8AA-41A2-B3E6-1172213C6737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{183EDC95-C8AA-41A2-B3E6-1172213C6737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{183EDC95-C8AA-41A2-B3E6-1172213C6737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A80C1B2B-8E18-497D-997E-0AF2C959F535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A80C1B2B-8E18-497D-997E-0AF2C959F535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A80C1B2B-8E18-497D-997E-0AF2C959F535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A80C1B2B-8E18-497D-997E-0AF2C959F535}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49412D66-D388-425E-83AB-24E2705278C4}
+	EndGlobalSection
+EndGlobal

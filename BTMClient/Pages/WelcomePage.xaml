@@ -1,0 +1,111 @@
+﻿<UserControl x:Class="BTMClient.Pages.WelcomePage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BTMClient.Pages"
+             mc:Ignorable="d" 
+             d:DesignHeight="650" d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <StackPanel
+            Orientation="Horizontal"
+            VerticalAlignment="Top" 
+            HorizontalAlignment="Right"
+            Grid.ColumnSpan="3">
+            <Button Width="75" Margin="0 0 20 0" Padding="10">فارسی</Button>
+            <Button Width="75" Padding="10">English</Button>
+        </StackPanel>
+        <TextBlock 
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Margin="0 60 0 0"
+            Grid.Column="1"
+            TextAlignment="Center"
+            FontSize="15"
+            FontWeight="Bold"
+            >به سامانه خودکار خرید و فروش ارز دیجیتال خوش آمدید</TextBlock>
+        <RichTextBox
+                VerticalAlignment="Top"
+                HorizontalAlignment="Center"
+                Margin="0 100 0 0"
+                Grid.Column="1"
+                Height="400"
+                ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                ScrollViewer.VerticalScrollBarVisibility="Auto"
+                IsReadOnly="True"
+                ScrollViewer.CanContentScroll="True"
+            >
+            <RichTextBox.Background>
+                <SolidColorBrush Color="White" Opacity="0.6"/>
+            </RichTextBox.Background>
+            <FlowDocument TextAlignment="Left"  FontSize="13">
+                <Paragraph  FontWeight="Bold" FontSize="14" TextAlignment="Center">
+                    <Run>لطفا متن زیر با دقت مطالعه بفرمائید ، عضویت و استفاده از خدمات این وب سایت به منزله آگهی و پذیرفتن همه این قوانین خواهد بود</Run>
+                </Paragraph>
+                <Paragraph >
+                    <Run>
+                        مسئولیت صحت محتوا و اطلاعات مربوط به افراد و شرکتها از جمله تصاویر و متون بر عهده کاربرانی است که اطلاعات را در سامانه وارد کرده اند. ما از تمامی کاربران درخواست می نماییم تا از کارلیب برای انجام امور غیر قانونی و خلاف شرع و عرف جامعه به علاوه تمامی موارد زیر اکیدا" استفاده ننمایند:
+                    </Run>
+                </Paragraph>
+                <Paragraph  >
+                    <Run>
+                        ۱.	گذاشتن هرگونه اطلاعات نادرست، نامربوط و يا مربوط به شخص ديگر.
+                    </Run>
+                </Paragraph>
+                <Paragraph  >
+                    <Run>
+                        ۲.	مشاركت در رفتار هايي كه جرم محسوب مي شود و يا منجر به مسئوليت مدني مي گردد يا قانون و مقررات کشور جمهور اسلامی ایران را نقض مي كند.
+                    </Run>
+                </Paragraph>
+                <Paragraph  >
+                    <Run>
+                        ۳.	تلاش براي هرگونه دخالت در امنيت شبكه يا تلاش براي استفاده از سرويس سامانه کارلیب براي دسترسي غير مجاز به هر سيستم كامپيوتري ديگر.
+                    </Run>
+                </Paragraph>
+                <Paragraph  >
+                    <Run>
+                        تمامی کاربران مسئول حفظ امنیت دسترسی به حساب کاربری و رمز عبور خود هستند، بنابراین شما بدینوسیله مسئوليت تمام فعاليت هايي كه تحت حساب کاربری يا رمز عبورتان رخ مي دهد را مي پذيريد.
+                    </Run>
+                </Paragraph>
+                <Paragraph  >
+                    <Run>
+                        شما بدینوسیله موافقت مي نمایید كه در صورت اطلاع از استفاده غير مجاز از حساب کاربری تان يا نقض ساير مسائل امنيتي بلافاصله به ما اطلاع دهيد. کارلیب حق پیگیری حقوقی از سوء استفاده کنندگان از اپلیکیشن و سایت را برای خود محفوظ می دارد.
+                    </Run>
+                </Paragraph>
+                <Paragraph  >
+                    <Run>
+                        کارلیب به هیچ عنوان اصالت و صحت اطلاعات وارد شده توسط کاربران را تایید نمی کند، چنان چه بوسیله اطلاعات درست یا نادرست وارد شده توسط کاربران، سوء استفاده ای از افراد در سامانه صورت گیرد، هیچ مسئولیتی در این قبال ندارد و حق پیگیری قانونی را برای خود محفوظ می دارد.
+                    </Run>
+                </Paragraph>
+                <Paragraph  >
+                </Paragraph>
+                <Paragraph   FontWeight="Light">
+                    <Run>
+                        به علاوه کاربران می پذیرند که سامانه کارلیب و تمامی کارکنان، مسئولان، مدیران و سهامداران آن هیچ مسئولیتی در قبال وقوع هر گونه خسارت احتمالی ( مسقیم و غیر مستقیم ، مالی و غیر مالی ) در هنگام استفاده از سامانه کارلیب به هیچ احدی ندارد.
+                    </Run>
+                </Paragraph>
+                <Paragraph></Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <StackPanel Orientation="Horizontal"
+                    Margin="0 540 0 0"
+                    Grid.Column="1"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Right">
+            <TextBlock Margin="0 0 10 0">با قوانین سامانه موافقم</TextBlock>
+            <CheckBox x:Name="Rulles"></CheckBox>
+        </StackPanel>
+        <Button VerticalAlignment="Top"
+                HorizontalAlignment="Center"
+                Margin="0 620 0 0"
+                Padding="10"
+                Grid.Column="1"
+                Click="Button_Click"
+                >ورود به سامانه</Button>
+    </Grid>
+</UserControl>
